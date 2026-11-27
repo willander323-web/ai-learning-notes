@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="site-title">AIリテラシー学習ノート</div>
+      <div class="subtitle">AI Learning Notes</div>
+
+      <nav>
+        <a href="{{ '/' | relative_url }}">ホーム</a>
+        <a href="{{ '/basics.html' | relative_url }}">生成AIの基礎</a>
+        <a href="{{ '/safety.html' | relative_url }}">AIの安全性</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>© 2026 AI Learning Notes</p>
+  </footer>
+
+</body>
+</html>
