@@ -1,0 +1,9 @@
+title: AIリテラシー学習ノート
+description: AIに関する個人学習用サイト
+lang: ja
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
